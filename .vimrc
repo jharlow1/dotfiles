@@ -37,6 +37,11 @@ set modelines=0
 "execute pathogen#infect()
 
 filetype indent plugin on
+" Smart Indent
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set smartindent
 set expandtab
 set smarttab
 set autoindent
