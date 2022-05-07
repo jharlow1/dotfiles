@@ -13,6 +13,12 @@ brew "ack"
 brew "asciinema"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# YAML Parser
+brew "libyaml"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
 # Automatically restart SSH sessions and tunnels
 brew "autossh"
 # Interpreted, interactive, object-oriented programming language
@@ -25,8 +31,6 @@ brew "bat"
 brew "binutils"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
-# GNU File, Shell, and Text utilities
-brew "coreutils"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Tool for managing dock items
@@ -59,8 +63,6 @@ brew "kubectx"
 brew "kustomize"
 # C library SSHv1/SSHv2 client and server protocols
 brew "libssh"
-# YAML Parser
-brew "libyaml"
 # Swiss Army Knife for macOS
 brew "m-cli"
 # Mac App Store command-line interface
