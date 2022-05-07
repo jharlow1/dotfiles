@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+{{ template "script_no_root" . }}
+{{ template "script_caffeinate" . }}
+
+python3 -m pip install --upgrade --user pip
+python3 -m pip install --user --no-warn-script-location virtualenv virtualenvwrapper
