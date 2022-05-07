@@ -1,4 +1,5 @@
 # https://www.chezmoi.io/docs/how-to/#handle-configuration-files-which-are-externally-modifiedREADME.md
+install.sh
 LICENSE
 README.md
 .git/
