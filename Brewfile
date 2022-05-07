@@ -95,5 +95,3 @@ cask "spotify"
 cask "vagrant"
 # Open-source code editor
 cask "visual-studio-code"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
