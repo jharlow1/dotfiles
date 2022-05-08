@@ -75,6 +75,7 @@ brew "nss"
 brew "ssh-copy-id"
 # Internet file retriever
 brew "wget"
+brew "svn"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line helper for the 1Password password manager
@@ -95,3 +96,7 @@ cask "spotify"
 cask "vagrant"
 # Open-source code editor
 cask "visual-studio-code"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
+cask "font-menlo-for-powerline"
+cask "font-source-code-pro"
