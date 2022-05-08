@@ -5,3 +5,7 @@
 
 python3 -m pip install --upgrade --user pip
 python3 -m pip install --user --no-warn-script-location virtualenv virtualenvwrapper
+
+if [ ! -e "${ZDOTDIR:-$HOME}/.zprezto" ]; then
+  git clone --recursive https://github.com/jharlow1/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+fi
