@@ -15,8 +15,4 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 brew bundle --verbose --no-upgrade --no-lock || true
 
-if [ -z ~/.vim/bundle/Vundle.vim ]; then 
-  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-fi
-
 set +x
